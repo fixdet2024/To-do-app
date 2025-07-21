@@ -1,0 +1,100 @@
+/* Asegura que no se desborde en pantallas pequeñas */
+* {
+  box-sizing: border-box;
+}
+
+/* Globales */
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff1a;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 3rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 479px) {
+  .container {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  input[type="text"],
+  button[type="submit"] {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .task-label {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  input[type="text"],
+  button[type="submit"] {
+    font-size: 1.1rem;
+  }
+
+  .task-label {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .container {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input[type="text"] {
+    font-size: 1.15rem;
+  }
+
+  .task-label {
+    font-size: 1.05rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
