@@ -13,6 +13,7 @@ Una aplicación fullstack de gestión de tareas (ToDo App), construida con React
 ## 🛠️ Tecnologías utilizadas
 
 ### 🔹 Frontend
+
 - [React](https://reactjs.org/) `v18+`
 - [Vite](https://vitejs.dev/) como bundler
 - [Axios](https://axios-http.com/) para peticiones HTTP
@@ -20,6 +21,7 @@ Una aplicación fullstack de gestión de tareas (ToDo App), construida con React
 - CSS personalizado con media queries
 
 ### 🔹 Backend
+
 - [Node.js](https://nodejs.org/) `v18+`
 - [Express](https://expressjs.com/)
 - [MySQL2](https://www.npmjs.com/package/mysql2)
@@ -34,7 +36,7 @@ Una aplicación fullstack de gestión de tareas (ToDo App), construida con React
 ### 🔹 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/todoapp-react.git
+git clone https://github.com/fixdet2024
 cd todoapp-react
 
 npm install
@@ -42,7 +44,7 @@ npm run dev
 
 recomendacion  abrir terminal dedicada para el frontend
 
---- 
+---
 
 🔹 2. Instalación del backend (Node.js + MySQL)
 
@@ -54,7 +56,7 @@ npm run dev
 
 Recomendación: abre una terminal dedicada solo para el backend
 
---- 
+---
 
 📂 La base de datos se encuentra dentro de la carpeta data.
 
@@ -64,7 +66,7 @@ Puedes:
 Marcar como completada
 Eliminar la tarea
 
---- 
+---
 
 📂 Ver tareas separadas por sección (Pendientes y Completadas usando <details>)
 
@@ -75,7 +77,7 @@ Teléfonos móviles
 Escritorios
 Tablets
 
---- 
+---
 
 📂 Estructura del proyecto
 pgsql
@@ -97,3 +99,4 @@ todoapp-react/
 └── package.json
 
 Desarrollado Jefer fixdet2024
+```
